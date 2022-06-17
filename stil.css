@@ -1,0 +1,114 @@
+*{margin:0px; padding:0px;}
+    body{ background-color: #fff;}
+	a:hover{text-decoration:underline;}
+	#omot{width:1000px;margin:0px auto;}
+	header{height:250px; background-image:url(slike/Naslovna10.jpg); position:relative; }
+    #glavnaNavigacija {height:50px; width:1000px; background-color: #C56ADE; position:absolute; top:200px;left:0px;}
+	#meni ul{list-style:none; margin:15px auto;}
+	#meni li{display:inline-block; margin-left:60px;}
+	#meni a{text-decoration:none; color:white; font-size:20px;}
+	#sadrzaj{min-height:680px;background-color: #F5E1F3;}
+	#levaKolona{width:210px;min-height:680px; float:left;}
+    .levaStrana {width:210px;margin-right:5px;}
+	.leviBlok{height:200px; width:200px;}
+	#levaKolona  a{text-decoration:none; color: #000; font-size:15px;margin-left:20px;}
+	#levaKolona  li{margin-top:5px;}
+	#levaKolona ul{list-style:none;}
+	.leviBlok {-moz-border-radius:10px;-webkit-border-radius: 10px;border: 1px solid #000;margin:5px;margin-top:15px;}
+	.leviBlok h2{margin-top:10px;margin-left:50px;}
+	#imeOstalo h2{margin-left:25px;}
+	#sadrzajSredina{width:500px;min-height:680px;float:left;}
+	#glavniBaner{height:400px; width:500px;}
+	#glavniBaner img{height:300px;width:500px;}
+	#glavniBaner h1{text-align:center;}
+	#sadrzajDole p{text-align:center;height:50px;}
+	.akcija{font-size:20px;}
+	.akcija a{text-decoration:none;color: #000;}
+	#sadrzajDole{padding-left:20px;border:1px solid #000;}
+	#ponuda{min-height:127px;}
+	.paketSlika img{height:100px; width:100px;}
+	.paketSlika{float:left; margin-left:40px;}
+	#ponuda h2{text-align:center;margin-bottom:10px;margin-top:10px;}
+	#desnaKolona{float:right; width:285px;min-height:680px;}
+	#najpopularnije{text-align:center;border:1px solid #000; margin-top:5px;}
+	.slikaDesno{margin-top:10px;}
+	#anketa{text-align:left;border:1px solid #000;padding:10px;margin-top:5px;}
+	#anketa h3{text-align:center;margin-bottom:10px;}
+	.cistac {clear:both;}
+	footer{min-height:160px;background-color: #C56ADE; }
+	.footerFloat{float:left;margin-left:100px; margin-top:20px;}
+	.footerFloat ul{list-style:none;}
+	.footerFloat a{text-decoration:none;color:white;}
+	#sadrzajOnama{width:470px;float:left;padding:15px;}
+	#sadrzajOnama h2{text-align:center;margin-bottom:15px;}
+	#sadrzajOnama p{margin-bottom:10px; text-indent:15px;text-align:justify;}
+	#slogan{margin-top:30px;}
+	#galerijaSredina{width:470px;float:left;padding:15px;}
+	#galerijaSredina h3{text-align:center;margin-bottom:20px;}
+	#galerijaSvadbenet{min-height:680px;}
+	.s1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaSvadbenet img{ width:120px; height:120px;}
+	#galerijaRodjendant{min-height:680px;}
+	#galerijaRodjendant img{ width:120px; height:120px;}
+	.r1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaSvecanet{min-height:680px;}
+	#galerijaSvecanet img{ width:120px; height:120px;}
+	.t01{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaKlasicnet{min-height:680px;}
+	#galerijaKlasicnet img{ width:120px; height:120px;}
+	.k1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	.torteOrg{float:left; margin:10px 50px;}
+	.torteOrg img{width:120px; height:120px;}
+	.torteOrg h4{text-align:center;margin-bottom:10px;}
+	.torteOrg  a{text-decoration:none;}
+	.slanoOrg{float:left;margin:10px 10px;}
+	.slanoOrg img{width:120px; height:120px;}
+	.slanoOrg  h4{text-align:center; margin-bottom:10px;}
+	.slanoOrg  a{text-decoration:none;}
+	#galerijaTorte{width:470px;float:left;padding:15px;}
+	.vrsteTorti{float:left;margin:30px 50px;}
+	.vrsteTorti img{width:120px; height:120px;}
+	.vrsteTorti  h4{text-align:center;margin-bottom:10px;}
+	.vrsteTorti  a{text-decoration:none;}
+	#galerijaKolaci{width:470px;float:left;padding:15px;}
+	.vrsteKolaca {float:left;margin:30px 50px;}
+	.vrsteKolaca  img{width:120px; height:120px;}
+	.vrsteKolaca  h4{text-align:center;margin-bottom:10px;}
+	.vrsteKolaca  a{text-decoration:none;}
+	#galerijaSkolaci{min-height:680px;}
+	#galerijaSkolaci img{ width:120px; height:120px;}
+	.v1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaMafini{min-height:680px;}
+	#galerijaMafini img{ width:120px; height:120px;}
+	.a1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaKkolaci{min-height:680px;}
+	#galerijaKkolaci img{ width:120px; height:120px;}
+	.c1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaFigurice{min-height:680px;}
+	#galerijaFigurice img{ width:120px; height:120px;}
+	.f1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaKostalo{min-height:680px;}
+	#galerijaKostalo img{ width:120px; height:120px;}
+	.o1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaSkolac{min-height:680px;}
+	#galerijaSkolac img{ width:120px; height:120px;}
+	.h1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	.o1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaSrolat{min-height:680px;}
+	#galerijaSrolat img{ width:120px; height:120px;}
+	.d1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaStorte{min-height:680px;}
+	#galerijaStorte img{ width:120px; height:120px;}
+	.e1{height:140px; width:120px;float:left;margin:15px;text-align:center;}
+	#galerijaPite{min-height:680px;}
+	#galerijaPite img{ width:120px; height:120px;}
+	#galerijaSostalo{min-height:680px;}
+	#galerijaSostalo img{ width:120px; height:120px;}
+	#cenaSlika img{height:680px; width:500px;}
+	#sadrzajUsluge{width:500px;min-height:680px; text-align:justify;float:left;}
+	#sadrzajUsluge p{text-indent:15px;margin-top:15px;}
+	#sadrzajUsluge h3{text-align:center;}
+	#slikaAutora img{height:300px; width:220px;margin-bottom:20px;margin-left:150px;margin-top:20px;}
+	#textAutor{text-align:justify;}
+	#kontakt{padding:40px;}
+	#kontakt p{margin-top:20px;margin-left:20px;}
